@@ -183,7 +183,7 @@ class App(tk.Tk):
         combo = ttk.Combobox(
             card,
             textvariable=self.report_type,
-            values=["Draft Reports", "In Review Reports"],
+            values=["Draft Reports", "In Review Reports", "2nd Review Reports"],
             state="readonly",
             width=28,
         )
